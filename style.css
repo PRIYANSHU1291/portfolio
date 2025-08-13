@@ -1,0 +1,77 @@
+body {
+    background-color:beige;
+    font-family: Arial, sans-serif;
+}
+hr {
+    height: 2px;
+    background-color:black;
+}
+
+h1{color: black;
+    text-align: center;
+}
+table{
+    margin-left: 500px;
+}
+nav {
+    background-color:darkmagenta;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: gold;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+h2 {
+    color: darkblue;
+}
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a.button:hover {
+    background-color: darkviolet;
+}
+.education-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+.education-table th, 
+.education-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.education-table th {
+    background-color: #333;
+    color: white;
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.education-table tr:hover {
+    background-color: #f1f1f1;
+}
